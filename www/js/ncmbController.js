@@ -8,6 +8,8 @@ var ncmbController = {
   currentUser: null,
   screenSize: null,
 
+  
+
   init: function(screenSize) {
       var self = this;
       self.ncmb = new NCMB(self.APPLICATION_KEY, self.CLIENT_KEY);
