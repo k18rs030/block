@@ -278,6 +278,7 @@ var BB = {
         
         BB.gameState = GAMESTATE_STOP;
         ncmbController.sendScore(BB.score);
+        ncmbController.createUser();
     }
 }
 
