@@ -268,16 +268,16 @@ var BB = {
     endGame: function() {
         BB.gameState = GAMESTATE_STOP;
         vibrate();
-        //ncmbController.sendScore(BB.score);
+        ncmbController.sendScore(BB.score);
     },
     
     // Game Clear
     clearGame: function() {
-        if(typeof navigator.notification !== 'undefined') navigator.notification.alert("Cleared!", function(){}, "Congraturations");
-        else alert("Cleared!");
+        //if(typeof navigator.notification !== 'undefined') navigator.notification.alert("Cleared!", function(){}, "Congraturations");
+        //else alert("Cleared!");
         
         BB.gameState = GAMESTATE_STOP;
-       // ncmbController.sendScore(BB.score);
+        ncmbController.sendScore(BB.score);
     }
 }
 
