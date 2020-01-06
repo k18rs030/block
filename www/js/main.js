@@ -50,7 +50,11 @@ var BB = {
             [null,      null,       'red',      'red',       null,       null,       null,       'silver',   'silver',   null],    
             [null,      null,       null,       'red',      'red',       null,       'silver',   'silver',   null,       null],    
             [null,      null,       null,       null,       'silver',   'silver',   'silver',   null,       null,       null],
-            [null,      null,       null,       null,       null,       'silver',   null,       null,       null,       null]
+            [null,      null,       null,       null,       null,       'silver',   null,       null,       null,       null],
+            [null,      'red',     'red',      null,       null,       'silver',    null,       null,      'red',      'red'],
+            [null,      null,       null,      null,       null,        null,       null,       null,      null,        null],
+            [null,      null,       null,      null,       'red',      null,        'red',      null,       null,       null],
+            [null,      null,       null,     'red',       null,        null,       null,       'red',      null,       null]
         ];
         
         for(j = 0; j < blockMap.length; j++) {
