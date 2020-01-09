@@ -28,7 +28,8 @@ sendScore: function(score) {
     // [3]送信処理
     scoreData.save()
         .then(function (saved) {
-            // 順位を求める
+          
+      // 順位を求める
 // ”score” フィールドの値が score より大きいものを取得
 Score.greaterThan("score", score)
     .count()    // 件数を結果に含める
@@ -93,3 +94,5 @@ return uuid;
 },
 
 }
+          
+      

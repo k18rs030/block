@@ -121,8 +121,8 @@ var BB = {
         ball.position.x = parseInt(BB.renderer.width * 0.5);
         ball.position.y = 200;
         
-        ball.width = 10;
-        ball.height = 10;
+        ball.width = 15;
+        ball.height = 15;
         
         ball.delta = {
             'x' : Math.random() - 0.5,
@@ -144,7 +144,7 @@ var BB = {
         BB.paddle.position.x = parseInt(BB.renderer.width * 0.5);
         BB.paddle.position.y = BB.renderer.height - 60;
         
-        BB.paddle.width = 60;
+        BB.paddle.width = 80;
         BB.paddle.height = 10;
         
         BB.paddle.accel = 0;
